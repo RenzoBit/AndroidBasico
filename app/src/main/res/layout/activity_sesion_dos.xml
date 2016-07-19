@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pe.edu.tecsup.androidsesion2.SesionDosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/text_sesion2_title" />
+
+        <Button
+            android:id="@+id/btnTextView"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Text view"/>
+
+        <Button
+            android:id="@+id/btnButton"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="button"/>
+
+        <Button
+            android:id="@+id/btnImageView"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="image view"/>
+
+        <Button
+            android:id="@+id/btnScrollView"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="scroll view"/>
+
+        <Button
+            android:id="@+id/btnEditText"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="edit text"/>
+
+        <Button
+            android:id="@+id/btnAutoCompleteTextView"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Auto Complete Text View"/>
+
+        <Button
+            android:id="@+id/btnCheckBox"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Check Box"/>
+
+        <Button
+            android:id="@+id/btnRadioButton"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"/>
+
+        <Button
+            android:id="@+id/btnProgressBar"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Progress Bar"/>
+
+        <Button
+            android:id="@+id/btnSeekBar"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Seek Bar"/>
+
+        <Button
+            android:id="@+id/btnArrayAdapter"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Array Adapter"/>
+
+        <Button
+            android:id="@+id/btnSimpleAdapter"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Simple Adapter"/>
+
+        <Button
+            android:id="@+id/btnSimpleCursorAdapter"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Simple Cursor Adapter"/>
+
+        <Button
+            android:id="@+id/btnCustomAdapter"
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Custom Adapter"/>
+
+    </LinearLayout>
+
+</ScrollView>

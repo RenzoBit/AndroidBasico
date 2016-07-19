@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Ayuda"
+        android:orderInCategory="500"
+        android:icon="@drawable/ic_motorcycle_black_24dp" />
+
+    <item
+        android:id="@+id/item2"
+        android:title="Contacto"
+        android:orderInCategory="400"
+        android:icon="@drawable/ic_accessibility_black_24dp" />
+
+    <item
+        android:id="@+id/item3"
+        android:title="Info"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_feedback_black_24dp" />
+
+</menu>
