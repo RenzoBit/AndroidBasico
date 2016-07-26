@@ -8,17 +8,17 @@ import android.support.v7.app.AppCompatActivity;
  */
 public class LayoutActivity extends AppCompatActivity {
 
-    private int layoutId;
+	private int layoutId;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
 
-        Bundle extras = getIntent().getExtras();
-        if (extras != null) {
-            layoutId = extras.getInt("layout");
-        }
+		Bundle extras = getIntent().getExtras();
+		if (extras != null) {
+			layoutId = extras.getInt("layout");
+		}
 
-        setContentView(layoutId);
-    }
+		setContentView(layoutId);
+	}
 }

@@ -1,19 +1,20 @@
 <resources>
-    <string name="app_name">Android Básico</string>
-    <string name="text_pcc_android">Curso de Android Básico</string>
-    <string name="text_sesion1">Tipos de Layouts</string>
-    <string name="text_gridlayout">Grid Layout</string>
-    <string name="text_linearlayout">Linear Layout</string>
-    <string name="text_relativelayout">Relative Layout</string>
-    <string name="text_framelayout">Frame Layout</string>
-    <string name="text_tablelayout">Table Layout</string>
-    <string name="text_sesion1_title">Sesión 1</string>
-    <string name="text_sesion2_title">Sesión 2</string>
-    <string name="text_sesion3_title">Sesión 3</string>
-    <string name="nuevo_hilo">Ejecutar Hilo</string>
-    <string name="nuevo_asynctask">Ejecutar AsyncTask</string>
-    <string name="progreso">Progreso Tarea</string>
-    <string name="sin_hilos">Ejecución Sin Hilos</string>
-    <string name="asynctask_dialog">AsyncTask + ProgressDialog</string>
-    <string name="cancelar">Cancelar</string>
+	<string name="app_name">Android Básico</string>
+	<string name="text_pcc_android">Curso de Android Básico</string>
+	<string name="text_sesion1">Tipos de Layouts</string>
+	<string name="text_gridlayout">Grid Layout</string>
+	<string name="text_linearlayout">Linear Layout</string>
+	<string name="text_relativelayout">Relative Layout</string>
+	<string name="text_framelayout">Frame Layout</string>
+	<string name="text_tablelayout">Table Layout</string>
+	<string name="text_sesion1_title">Sesión 1</string>
+	<string name="text_sesion2_title">Sesión 2</string>
+	<string name="text_sesion3_title">Sesión 3</string>
+	<string name="text_sesion4_title">Sesión 4</string>
+	<string name="nuevo_hilo">Ejecutar Hilo</string>
+	<string name="nuevo_asynctask">Ejecutar AsyncTask</string>
+	<string name="progreso">Progreso Tarea</string>
+	<string name="sin_hilos">Ejecución Sin Hilos</string>
+	<string name="asynctask_dialog">AsyncTask + ProgressDialog</string>
+	<string name="cancelar">Cancelar</string>
 </resources>

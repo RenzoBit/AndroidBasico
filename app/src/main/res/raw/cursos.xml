@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+	<curso>
+		<id>1</id>
+		<nombre>Programación en Android</nombre>
+		<descripcion>Desarrollo nativo para Sistemas Operativos Android</descripcion>
+	</curso>
+	<curso>
+		<id>2</id>
+		<nombre>Programación en Cordova</nombre>
+		<descripcion>Desarrollo multiplataforma para Android, iOS, Windows Phone, entre otros</descripcion>
+	</curso>
+</cursos>

@@ -1,0 +1,75 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<TableRow
+		android:id="@+id/tableRow1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Correo:"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/txtCorreo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10">
+			<requestFocus />
+		</EditText>
+	</TableRow>
+
+	<TableRow
+		android:id="@+id/tableRow2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Clave:"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/txtClave"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:inputType="textPassword" />
+	</TableRow>
+
+	<TableRow
+		android:id="@+id/tableRow3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_span="2"
+			android:onClick="guardar"
+			android:text="Guardar" />
+	</TableRow>
+
+	<TableRow
+		android:id="@+id/tableRow4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_span="2"
+			android:onClick="continuar"
+			android:text="Continuar" />
+	</TableRow>
+
+</TableLayout>

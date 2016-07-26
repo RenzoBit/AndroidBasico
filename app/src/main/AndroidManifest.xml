@@ -1,58 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="pe.edu.tecsup.androidsesion1">
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/text_pcc_android"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+	<uses-permission android:name="android.permission.READ_CALL_LOG" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.READ_SMS" />
 
-        <activity android:name="pe.edu.tecsup.androidmain.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/text_pcc_android"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity android:name="pe.edu.tecsup.androidmain.MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".LayoutActivity" />
+		<activity android:name=".SesionUnoActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.SesionDosActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.ScrollViewActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.AutoCompleteActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.RadioButtonActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.CheckBoxActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.ProgressBarActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.SeekBarActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.ArrayAdapterActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.SimpleAdapterActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.SimpleCursorAdapterActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion2.CustomAdapterActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion3.SesionTresActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion3.TabsActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion3.ActionBarActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion3.ContextMenuActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion3.TabsActionBarActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion3.ServicesActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion3.AsyncTaskActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion3.BroadcastReceiverActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.SesionCuatroActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.EscrituraBDActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.LecturaBDActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.EscribirPreferenciaActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.LeerPreferenciaActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.ListarLlamadasActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.ListarContactosActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.ListarSMSActivity" />
+		<activity android:name="pe.edu.tecsup.androidsesion4.LecturaDOMActivity" />
 
-        <activity android:name=".LayoutActivity" />
-        <activity android:name=".SesionUnoActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.SesionDosActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.ScrollViewActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.AutoCompleteActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.RadioButtonActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.CheckBoxActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.ProgressBarActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.SeekBarActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.ArrayAdapterActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.SimpleAdapterActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.SimpleCursorAdapterActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion2.CustomAdapterActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion3.SesionTresActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion3.TabsActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion3.ActionBarActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion3.ContextMenuActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion3.TabsActionBarActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion3.ServicesActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion3.AsyncTaskActivity" />
-        <activity android:name="pe.edu.tecsup.androidsesion3.BroadcastReceiverActivity"></activity>
+		<service
+			android:name="pe.edu.tecsup.androidsesion3.ShowTimeService"
+			android:exported="false"
+			android:label="ShowTime Service" />
+		<service
+			android:name="pe.edu.tecsup.androidsesion3.BroadcastService"
+			android:exported="false"
+			android:label="Broadcast Service" />
 
-        <service
-            android:name="pe.edu.tecsup.androidsesion3.ShowTimeService"
-            android:label="ShowTime Service"
-            android:exported="false" />
+		<receiver android:name="pe.edu.tecsup.androidsesion3.BroadcastReceiverActivity$BroadcastReceiver">
+			<intent-filter>
+				<action android:name="pe.edu.tecsup.androidsesion3.MY_BROADCAST" />
+			</intent-filter>
+		</receiver>
 
-        <service
-            android:name="pe.edu.tecsup.androidsesion3.BroadcastService"
-            android:label="Broadcast Service"
-            android:exported="false" />
-
-        <receiver android:name="pe.edu.tecsup.androidsesion3.BroadcastReceiverActivity$BroadcastReceiver" >
-            <intent-filter>
-                <action android:name="pe.edu.tecsup.androidsesion3.MY_BROADCAST" ></action>
-            </intent-filter>
-        </receiver>
-
-    </application>
+	</application>
 
 </manifest>

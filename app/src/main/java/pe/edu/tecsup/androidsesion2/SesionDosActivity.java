@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import pe.edu.tecsup.androidsesion1.LayoutActivity;
 import pe.edu.tecsup.androidsesion1.R;
 
 public class SesionDosActivity extends AppCompatActivity implements View.OnClickListener {

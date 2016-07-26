@@ -10,12 +10,14 @@ import pe.edu.tecsup.androidsesion1.R;
 import pe.edu.tecsup.androidsesion2.SesionDosActivity;
 import pe.edu.tecsup.androidsesion1.SesionUnoActivity;
 import pe.edu.tecsup.androidsesion3.SesionTresActivity;
+import pe.edu.tecsup.androidsesion4.SesionCuatroActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnSesionUno;
     private Button btnSesionDos;
     private Button btnSesionTres;
+    private Button btnSesionCuatro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +28,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSesionUno = (Button) findViewById(R.id.btnSesionUno);
         btnSesionDos = (Button) findViewById(R.id.btnSesionDos);
         btnSesionTres = (Button) findViewById(R.id.btnSesionTres);
+        btnSesionCuatro = (Button) findViewById(R.id.btnSesionCuatro);
 
         btnSesionUno.setOnClickListener(this);
         btnSesionDos.setOnClickListener(this);
         btnSesionTres.setOnClickListener(this);
-
+        btnSesionCuatro.setOnClickListener(this);
     }
 
     @Override
@@ -45,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnSesionTres:
                 intent = new Intent(MainActivity.this, SesionTresActivity.class);
+                break;
+            case R.id.btnSesionCuatro:
+                intent = new Intent(MainActivity.this, SesionCuatroActivity.class);
                 break;
         }
         startActivity(intent);
